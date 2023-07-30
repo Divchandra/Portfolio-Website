@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Source+Code+Pro:ital@1&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+.name p{
+    font-family:  "";
+    padding-left: 415px;
+    padding-top: 125px;
+    font-size: 4em;
+    color: white;
+}
+.name h1{
+    padding-left: 535px;
+    font-size: 1.8em;
+    font-family:  'Fira Sans', sans-serif;
+    color:white;
+
+}
+.resume button{
+    margin-left:550px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:  rgba(100, 185, 239, 0.75);
+    color: white;
+    font-size: medium;
+    border: 2px solid white;
+    font-family:  'Fira Sans', sans-serif;
+}
+.resume button:hover{
+    background-color: white;
+    color:skyblue;
+    transition: 0.5s;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top:106px;
+}
+.down a{
+    text-decoration: none;
+    padding:10px;
+    background-color:  rgba(100, 185, 239, 0.75);
+    margin:10px;
+    border-radius: 50%;
+
+}
+.down a i{
+    font-size: 2em;
+    color: white;
+    opacity:0.9;
+}
+.down a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.down a:hover i{
+    color: rgba(100, 185, 239, 0.75);
+    transition: 0.5;
+}
+nav{ 
+     padding-top: 0px;
+    width:67%;
+    height:75px;
+    line-height: 40px;
+    padding:0px;
+    margin-top:0px;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 65px;
+    background-color: white;
+    font-family:  'Fira Sans', sans-serif;
+
+}
+nav ul{
+    float:right;
+}
+nav li{
+    display: inline-block;
+    color: black;
+    list-style: none;
+}
+nav li a{
+    color:black;
+    font-size: 20px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:rgb(8, 186, 222);
+    transition: all 0.4s ease 0s ;
+}
+.image{
+    width:100%;
+    height:120vh;
+    background-size: cover;
+    background-position:top ;
+    background-image: url(bg.png);
+    border: 1px solid white;
+}
+.image-overlay{
+    width:100%;
+    height:120vh;
+    background-color: rgba(0,0,0, 0.75),#3551b5;
+
+}
+
+/*------------------------------------about------------------------*/
+#about{
+    padding:80px 0;
+    font-family:  'Fira Sans', sans-serif;
+    
+
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+#about h1{
+    text-align: center;
+}
+.about-col-1{
+    padding-top: 30px;
+    padding-left: 60px;
+    height: 60px;
+    width: 100px;
+    flex-basis: 30%;
+
+}
+.about-col-1 img{
+    border-radius: 15px;
+}
+.about-col-2{
+    padding-top: 30px;
+    flex-basis: 60%;
+    font-size: large;
+}
+/*--------------Education----------*/
+#education{
+    background-color:#edebeb;
+    background-attachment: fixed;
+    height:850px;
+}
+#education h1{
+    
+      text-align: center;
+      font-family:  'Fira Sans', sans-serif;
+}
+
+
+
+
+.edu-col-3{
+
+   padding-top: 30px;
+    padding-left:430px;
+    flex-basis: 60%;
+    
+
+
+}
+.box {
+    align-items: left;
+    display: inline-block;
+    background-color: white;
+    border:1px solid black;
+    width:500px;
+    height:180px;
+    padding-left: 20px;
+    font-family:  'Fira Sans', sans-serif;
+}
+.box:hover{
+    box-shadow: 0px 3px 12px 0px black;
+    border:1px solid transparent;
+}
+
+  .box::before{
+    content:'';
+    position: absolute;
+    width:26px;
+    height:26px;
+    border-radius: 50%;
+    background-color: skyblue;
+    transform:translate(-50%,-50%);
+    left : 340px;
+    margin-top: 32px;
+  }
+  .highlight h3{
+    display:inline-block;
+    background-color: skyblue;
+    height:35px;
+    width:90px;
+    text-align:center;
+    border-radius: 15px;
+    margin-bottom: -20px;
+  }
+/*-----------------projects------------------*/
+#project{
+    background-color: #edebeb;
+    height: 1500px;
+    font-family:  'Fira Sans', sans-serif;
+
+}
+#project h1{
+    text-align: center;
+    padding-top: 20px;;
+}
+
+.box1{
+    align-items: center;
+    display: inline-block;
+    background-color: white;
+    border:1px solid white;
+    width:500px;
+    height:260px;
+    padding-left: 20px;
+    margin-left: 380px;
+    margin-top: 40px;
+    padding-top: 10px;
+    border:1px solid black;
+
+}
+.box1:hover{
+    box-shadow: 0px 3px 12px 0px black;
+    border:1px solid transparent;
+
+}
+.box1 h4{
+    display: inline;
+    justify-content: left;
+}
+.box1 a{
+    text-decoration: none;
+    color:rgb(54, 187, 239);
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font:40px;
+
+}
+.box2{
+    align-items: center;
+    display: inline-block;
+    background-color: white;
+    border:1px solid white;
+    width:500px;
+    height:280px;
+    padding-left: 20px;
+    margin-left: 380px;
+    margin-top: 40px;
+    padding-top: 10px;
+    border:1px solid black;
+
+}
+.box2:hover{
+    box-shadow: 0px 3px 12px 0px black;
+    border:1px solid transparent;
+
+}
+.box2 h4{
+    display: inline;
+    justify-content: left;
+}
+.box2 a{
+    text-decoration: none;
+    color:rgb(54, 187, 239);
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font:40px;
+
+}
+/*----------------------skills--------------------------------*/
+#skills{
+    background-color: white;
+    height:400px;
+    font-family:  'Fira Sans', sans-serif;
+}
+#skills h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.skill1 h3{
+    margin-top: 60px;
+    justify-content: center;
+margin-left: 80px;
+float: left;
+border:1px solid white;
+width:70px;
+height:35px;
+border-radius:15px;
+text-align: center;
+background-color: skyblue;
+color: white;
+}
+
+
+/*--------------------------------contact------------------------------------*/
+#contact{
+    background-color:white;
+    height:550px;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Fira Sans', sans-serif;
+    
+}
+#contact h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;;
+}
+.form{
+    width :60%;
+    max-width:600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.inputgroup{
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 420px;
+    font-family:  'Fira Sans', sans-serif;
+    
+
+}
+textarea{
+    width:40%;
+    padding-left:10px;
+    border:2px solid white;
+    background-color: skyblue;
+    font-size:15px;
+    border-radius: 18px;
+    outline: 0;
+    font-family:  'Fira Sans', sans-serif;
+}
+
+input{
+    width:40%;
+    outline: 0;
+    padding:8px;
+    padding-left:10px;
+    border:2px solid white;
+    background-color: skyblue;
+    font-size:15px;
+    border-radius: 15px;
+    font-family:  'Fira Sans', sans-serif;
+}
+label{
+    position: absolute;
+    height: 100%;
+    color:black;
+    left:0;
+    top:0;
+    padding: 10px;
+    cursor:text;
+    padding-left: 430px;
+    transition: 0.2s;;
+
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top:-35px;
+    font-size:14px;
+
+}
+
+
+button{
+    margin-left: 420px;
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 13px;
+    font-size: 15px;
+    color:white;
+    border:2px solid white;
+    font-family:  'Fira Sans', sans-serif;
+}
+button:hover{
+    background-color: white;
+    color:skyblue;
+}
+
+/*--------------------------------footer--------------------------------------*/
+footer{
+    background-color: skyblue;
+    font-family:  'Fira Sans', sans-serif;
+}
+.footer{
+    width:100%;
+    padding:70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 50px;;
+}
+.socialicons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+
+}
+.socialicons a i{
+    font-size: 2em;
+    color: skyblue;
+    opacity:0.9;
+}
+.socialicons a:hover{
+    background-color: rgb(79, 193, 239);
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color:white;
+    transition: 0.5;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 50px;;
+}
+.up a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+
+}
+.up a i{
+    font-size: 2em;
+    color: skyblue;
+    opacity:0.9;
+}
+.up a:hover{
+    background-color: rgb(79, 193, 239);
+    transition: 0.5s;
+}
+.up a:hover i{
+    color:white;
+    transition: 0.5;
+}
+.footerbottom{
+    background-color:rgb(99, 204, 246);
+    padding:20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+
+.designer{
+    opacity:0.7;
+    letter-spacing: 1px;
+    margin:0 5px;
+}
+@media screen and (max-width:600px)
+{
+    .name p {
+
+        padding-left: 70px;
+        padding-top: 90px;
+        font-size: 2em;
+        color: white;
+        padding-bottom: -50px;;
+    }
+   
+    nav {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 60px;
+        background-color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 0.07em;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 20px;
+    }
+    nav li a{
+        color:black;
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .resume button{
+        margin-left:130px;
+        padding: 15px;
+        border-radius: 20px;
+        background-color:  rgba(100, 185, 239, 0.75);
+        color: white;
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border: 2px solid white;
+        font-family:  'Fira Sans', sans-serif;
+    }
+    .down{
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-top:58px;
+    }/*-----------------------------About---------------------------*/
+    #about{
+        padding:50px 0;
+        font-family:  'Fira Sans', sans-serif;
+        
+    
+    }
+    .row{
+        display:inline-block;
+        justify-content: left;
+    }
+
+    #about h1{
+        text-align: center;
+    }
+    .about-col-1{
+        padding-top: 5px;
+        padding-left: 30px;
+        height: 15px;
+        width: 30px;
+    
+    }
+    .about-col-1 img{
+        border-radius: 15px;
+        height: 280px;
+        width: 330px;
+    }
+    .about-col-2{
+        padding-top: 300px;
+        padding-right: 270px;
+        height: 400px;
+        width:360px;
+        padding-left: 20px;
+
+    }
+    /*-----------------------------Education-----------------------*/
+    #education{
+        background-color:#edebeb;
+        background-attachment: fixed;
+        height:800px;
+    }
+    .edu-col-2{
+        
+        height:0px;
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+    
+    
+    .edu-col-3{
+    
+       padding-top: 30px;
+        padding-left:20px;
+    
+    }
+    .box {
+
+        display: inline-block;
+        background-color: white;
+        border:1px solid black;
+        width:300px;
+        height:180px;
+        padding-left: 10px;
+        margin-left: 20px;
+        font-family:  'Fira Sans', sans-serif;
+    }
+    .highlight h4{
+        display:inline-block;
+        background-color: skyblue;
+        height:35px;
+        width:80px;
+        text-align:center;
+        border-radius: 15px;
+        margin-bottom: -20px;
+      }
+      .box h3{
+        font-size: 15px;
+      }
+    
+
+    /*-----------------------Skilss-----------------------------*/
+    #skills{
+        background-color: white;
+        height:600px;
+        font-family:  'Fira Sans', sans-serif;
+    }
+    .skill1 h3{
+        margin-top: 60px;
+        justify-content: center;
+    margin-left: 40px;
+    float: left;
+    border:1px solid white;
+    width:70px;
+    height:35px;
+    border-radius:15px;
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    }
+    .box::before{
+        
+        background-color: white;
+        
+      }
+    /*--------------------------Projects--------------------------*/
+    #project{
+        background-color: #edebeb;
+        height: 1500px;
+        font-family:  'Fira Sans', sans-serif;
+    
+    }
+    .box1{
+        align-items: center;
+        display: inline-block;
+        background-color: white;
+        border:1px solid white;
+        width:350px;
+        height:267px;
+        padding-left: 10px;
+        margin-left: 15px;
+        margin-right: 25px;
+        margin-top: 40px;
+        padding-top: 10px;
+        border:1px solid black;
+    }
+    .box2{
+        align-items: center;
+        display: inline-block;
+        background-color: white;
+        border:1px solid white;
+        width:350px;
+        height:290px;
+        padding-left: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+        padding-top: 10px;
+        border:1px solid black;
+    }
+    /*--
+    /*--------------------------Contact--------------------*/
+
+    #contact{
+    background-color:white;
+    height:550px;
+    align-items: left;
+    justify-content: left;
+    font-family:  'Fira Sans', sans-serif;
+    
+}
+.form{
+    width :80%;
+    justify-content:left;
+    align-items: left;
+    display: flex;
+}
+.inputgroup{
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 100px;
+    font-family:  'Fira Sans', sans-serif;
+    
+
+}
+textarea{
+    width:80%;
+    padding-left:10px;
+    border:2px solid white;
+    background-color: skyblue;
+    font-size:10px;
+    border-radius: 18px;
+    outline: 0;
+    font-family:  'Fira Sans', sans-serif;
+}
+input{
+    width:80%;
+    outline: 0;
+    padding:8px;
+    padding-left:10px;
+    border:2px solid white;
+    background-color: skyblue;
+    font-size:15px;
+    border-radius: 15px;
+    font-family:  'Fira Sans', sans-serif;
+}
+label{
+    position: absolute;
+    height: 100%;
+    color:black;
+    left:0;
+    top:0;
+    padding: 10px;
+    cursor:text;
+    padding-left: 109px;
+    transition: 0.2s;;
+
+}
+button{
+    margin-left: 100px;
+}
+/*-------------------------------footer-------------------------------*/
+.up{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+}
